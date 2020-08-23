@@ -54,6 +54,13 @@ namespace HelloWorld
             }
         }
 
+        public Box(int length, int height, int width)
+        {
+            this.length = length;
+            this.height = height;
+            Width = width;
+        }
+
         public void SetLength(int length)
         {
             if (length < 0)
